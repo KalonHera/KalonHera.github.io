@@ -1,0 +1,246 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i);
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700);
+
+* { box-sizing: border-box; }
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("Background.png");
+}
+
+.container {
+	width: 1580px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	border: 40px solid #493F2F;
+	border-radius: 40px;
+	padding: 0px;
+	background-color: #493F2F;
+}
+
+.title {
+	background-color: #493F2F;
+	text-align: center;
+	font-family: Cinzel, monospace;
+	padding: 0px;
+	font-size: 65px;
+	vertical-align: top;
+	margin-top: -87px;
+
+}
+
+.boxes {
+	width: 1500px;
+	height: 1500px;
+	position: relative;
+	top: -87px;
+	margin-bottom: -87px;
+	text-align: center;
+}
+
+.box1content {
+	display: none;
+	font-family: "Crimson Text", serif;
+	font-size: 40px;
+}
+
+.box2content {
+	display: none;
+	font-family: "Crimson Text", serif;
+	font-size: 40px;
+}
+
+.box3content {
+	display: none;
+	font-family: "Crimson Text", serif;
+	font-size: 40px;
+}
+
+.box4content {
+	display: none;
+	font-family: "Crimson Text", serif;
+	font-size: 40px;
+}
+
+.box5content {
+	display: none;
+	font-family: "Crimson Text", serif;
+	font-size: 40px;
+}
+
+.box6content {
+	display: none;
+	font-family: "Crimson Text", serif;
+	font-size: 40px;
+}
+
+.box1title {
+	margin-top: 215px;
+	margin-bottom: 215px;
+	font-size: 70px;
+	font-family: cinzel, serif;
+}
+
+.box2title {
+	margin-top: 215px;
+	margin-bottom: 215px;
+	font-size: 70px;
+	font-family: cinzel, serif;
+}
+
+.box3title {
+	margin-top: 215px;
+	margin-bottom: 215px;
+	font-size: 70px;
+	font-family: cinzel, serif;
+}
+
+.box4title {
+	margin-top: 215px;
+	margin-bottom: 215px;
+	font-size: 70px;
+	font-family: cinzel, serif;
+}
+
+.box5title {
+	margin-top: 215px;
+	margin-bottom: 215px;
+	font-size: 70px;
+	font-family: cinzel, serif;
+}
+
+.box6title {
+	margin-top: 215px;
+	margin-bottom: 215px;
+	font-size: 70px;
+	font-family: cinzel, serif;
+}
+
+.box1:hover > .box1title {
+	display: none;
+}
+.box1:hover > .box1content {
+	display: inline;
+}
+
+.box2:hover > .box2title {
+	display: none;
+}
+.box2:hover > .box2content {
+	display: inline;
+}
+
+.box3:hover > .box3title {
+	display: none;
+}
+.box3:hover > .box3content {
+	display: inline;
+}
+
+.box4:hover > .box4title {
+	display: none;
+}
+.box4:hover > .box4content {
+	display: inline;
+}
+
+.box5:hover > .box5title {
+	display: none;
+}
+.box5:hover > .box5content {
+	display: inline;
+}
+
+.box6:hover > .box6title {
+	display: none;
+}
+.box6:hover > .box6content {
+	display: inline;
+}
+
+.box1 {
+	width: 750px;
+	height: 500px;
+	background-color: #2ECC40;
+	padding: 0px;
+	vertical-align: top;
+	float: left;
+	border-radius: 20px 0px 0px 0px;
+}
+
+.box2 {
+	width: 750px;
+	height: 500px;
+	background-color: #0074D9;
+	padding: 0px;
+	vertical-align: top;
+	float: right;
+	border-radius: 0px 20px 0px 0px;
+}
+
+.box3 {
+	width: 750px;
+	height: 500px;
+	background-color: #85144b;
+	padding: 0px;
+	vertical-align: top;
+	display: block;
+	float: left;
+}
+
+.box4 {
+	width: 750px;
+	height: 500px;
+	background-color: #FF851B;
+	padding: 0px;
+	vertical-align: top;
+	display: block;
+	float: right;
+}
+
+.box5 {
+	width: 750px;
+	height: 500px;
+	background-color: #FF0000;
+	padding: 0px;
+	vertical-align: top;
+	float: left;
+	border-radius: 0px 0px 0px 20px;
+}
+
+.box6 {
+	width: 750px;
+	height: 500px;
+	background-color: #FFC0CB;
+	padding: 0px;
+	vertical-align: top;
+	float: left;
+	border-radius: 0px 0px 20px 0px;
+}
+
+.box1:hover {
+	background-color: #01FF70;
+}
+
+.box2:hover {
+	background-color: #39CCCC;
+}
+
+.box3:hover {
+	background-color: #F012BE;
+}
+
+.box4:hover {
+	background-color: #FFDC00;
+}
+
+.box5:hover {
+	background-color: #FF4500;
+}
+
+.box6:hover {
+	background-color: #FFC6B1;
+}
